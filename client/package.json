@@ -1,0 +1,48 @@
+{
+  "description": "Online Store",
+  "name": "onlinestore",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.5.0",
+    "@material-ui/icons": "^4.4.3",
+    "@material-ui/lab": "^4.0.0-alpha.28",
+    "@mdi/js": "^3.9.97",
+    "@mdi/react": "^1.2.1",
+    "axios": "^0.18.1",
+    "classnames": "^2.2.6",
+    "filepond": "^4.7.2",
+    "filepond-plugin-image-exif-orientation": "^1.0.6",
+    "filepond-plugin-image-preview": "^4.4.0",
+    "jwt-decode": "^2.2.0",
+    "markdown-to-jsx": "^6.10.3",
+    "material-table": "^1.51.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-filepond": "^7.0.1",
+    "react-paypal-express-checkout": "^1.0.5",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.2.0",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "typescript": "^3.6.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "proxy": "https://ostoreapi.herokuapp.com/"
+}
